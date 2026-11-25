@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="千葉県八千代市の観光スポットとグルメをご紹介。京成バラ園や新川の水辺、道の駅やちよなど、週末に訪れたいまちの魅力を見つけよう。"
+    />
+    <meta name="theme-color" content="#183128" />
+    <title>やちよ日和｜千葉県八千代市の旅とおいしいもの</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&family=Shippori+Mincho:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="やちよ日和 トップ">
+        <span class="brand-mark" aria-hidden="true">八</span>
+        <span class="brand-copy"><strong>やちよ日和</strong><small>YACHIYO, CHIBA</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="メインメニュー">
+        <a href="#spots">観光スポット</a>
+        <a href="#gourmet">八千代グルメ</a>
+        <a href="#season">季節の楽しみ</a>
+        <a class="nav-cta" href="#access">旅のヒント <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-image" role="img" aria-label="木々と水辺に囲まれた穏やかな風景"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span></span> CHIBA · YACHIYO CITY</p>
+          <h1>ちょっと先の休日は、<br />八千代で深呼吸。</h1>
+          <p class="hero-description">
+            花に会いに行く。川辺を歩く。旬を味わう。<br />
+            都心からほど近い、心ほどけるまちの旅へ。
+          </p>
+          <a class="button button-light" href="#spots">八千代の楽しみを見つける <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span>01</span><i></i><span>花と水辺のまち</span></div>
+        <div class="hero-side-label">A LITTLE GETAWAY, CLOSE TO TOKYO</div>
+      </section>
+
+      <section class="intro section-wrap">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A DAY IN YACHIYO</p>
+        <div class="intro-grid">
+          <h2>気取らないのに、<br /><em>ちゃんと特別。</em></h2>
+          <div class="intro-text">
+            <p>千葉県北西部にある八千代市。美しいバラが咲く庭園や、新川のゆったりとした水辺、地元の恵みが並ぶ直売所。いつもの週末が、少し好きになる景色に出会えます。</p>
+            <a class="text-link" href="#season">八千代の季節を知る <span>↗</span></a>
+          </div>
+        </div>
+        <div class="intro-stats" aria-label="八千代市の特徴">
+          <div><span class="stat-number">2<span>路線</span></span><span class="stat-label">京成本線・東葉高速線</span></div>
+          <div><span class="stat-number">四<span class="stat-unit">季</span></span><span class="stat-label">季節ごとに変わる楽しみ</span></div>
+          <div><span class="stat-number">水<span class="stat-unit">辺</span></span><span class="stat-label">新川沿いの心地よい散歩道</span></div>
+        </div>
+      </section>
+
+      <section class="spots-section" id="spots">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow"><span class="eyebrow-dot"></span> PLACES TO VISIT</p>
+              <h2>八千代をめぐる、<em>よりみち。</em></h2>
+            </div>
+            <p class="heading-aside">花の香りに誘われて。<br />川の流れに歩幅を合わせて。</p>
+          </div>
+          <div class="filter-row" role="group" aria-label="スポットを絞り込む">
+            <span class="filter-label">FIND YOUR PLACE</span>
+            <button class="filter-button is-active" data-filter="all" aria-pressed="true">すべて <span>04</span></button>
+            <button class="filter-button" data-filter="nature" aria-pressed="false">自然・公園</button>
+            <button class="filter-button" data-filter="experience" aria-pressed="false">体験・おでかけ</button>
+          </div>
+          <div class="spot-grid">
+            <article class="spot-card spot-featured" data-category="nature experience">
+              <a class="spot-image image-rose" href="https://www.keiseirose.co.jp/garden/" target="_blank" rel="noreferrer" aria-label="京成バラ園の公式サイトを開く">
+                <span class="image-tag">FLOWER GARDEN</span><span class="image-arrow">↗</span>
+              </a>
+              <div class="spot-info"><div class="spot-meta"><span>01 · FLOWERS</span><span>八千代市大和田新田</span></div><h3>京成バラ園</h3><p>香り豊かなバラに包まれる、関東有数のローズガーデン。季節の花々やガーデンショップも楽しみ。</p><a class="card-link" href="https://www.keiseirose.co.jp/garden/" target="_blank" rel="noreferrer">公式サイトを見る <span>↗</span></a></div>
+            </article>
+            <article class="spot-card" data-category="nature">
+              <a class="spot-image image-river" href="https://www.google.com/maps/search/?api=1&query=新川+八千代市" target="_blank" rel="noreferrer" aria-label="新川の地図を開く">
+                <span class="image-tag">RIVERSIDE WALK</span><span class="image-arrow">↗</span>
+              </a>
+              <div class="spot-info"><div class="spot-meta"><span>02 · WATER</span><span>新川沿い</span></div><h3>新川の水辺さんぽ</h3><p>印旛沼へと続く新川沿いは、空が広く感じられる散歩道。春には桜並木も見どころです。</p><a class="card-link" href="https://www.google.com/maps/search/?api=1&query=新川+八千代市" target="_blank" rel="noreferrer">場所を地図で見る <span>↗</span></a></div>
+            </article>
+            <article class="spot-card" data-category="nature">
+              <a class="spot-image image-park" href="https://www.google.com/maps/search/?api=1&query=村上緑地公園+八千代市" target="_blank" rel="noreferrer" aria-label="村上緑地公園の地図を開く">
+                <span class="image-tag">PARK &amp; GREEN</span><span class="image-arrow">↗</span>
+              </a>
+              <div class="spot-info"><div class="spot-meta"><span>03 · GREEN</span><span>八千代市村上</span></div><h3>村上緑地公園</h3><p>雑木林の中をのんびり歩ける緑豊かな公園。季節の花が咲く時期は、散策がいっそう楽しく。</p><a class="card-link" href="https://www.google.com/maps/search/?api=1&query=村上緑地公園+八千代市" target="_blank" rel="noreferrer">場所を地図で見る <span>↗</span></a></div>
+            </article>
+            <article class="spot-card" data-category="nature experience">
+              <a class="spot-image image-market" href="https://www.michinoeki-yachiyo.jp/" target="_blank" rel="noreferrer" aria-label="道の駅やちよの公式サイトを開く">
+                <span class="image-tag">LOCAL MARKET</span><span class="image-arrow">↗</span>
+              </a>
+              <div class="spot-info"><div class="spot-meta"><span>04 · LOCAL LIFE</span><span>八千代市米本</span></div><h3>道の駅やちよ</h3><p>新川のほとりで、地元の新鮮な野菜や特産品に出会える場所。お出かけの休憩にもぴったり。</p><a class="card-link" href="https://www.michinoeki-yachiyo.jp/" target="_blank" rel="noreferrer">公式サイトを見る <span>↗</span></a></div>
+            </article>
+          </div>
+          <p class="filter-empty" hidden>この条件にあてはまるスポットはありません。</p>
+          <p class="small-note">※施設の営業状況・開花時期は変わる場合があります。訪問前に公式情報をご確認ください。</p>
+        </div>
+      </section>
+
+      <section class="gourmet-section" id="gourmet">
+        <div class="section-wrap gourmet-wrap">
+          <div class="gourmet-copy">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> TASTE OF YACHIYO</p>
+            <h2>おいしい理由は、<br /><em>このまち育ち。</em></h2>
+            <p class="gourmet-lead">畑の近くで食べる旬は、やっぱり格別。八千代の風土が育てる味を、旅の楽しみに。</p>
+            <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=八千代市+直売所+レストラン" target="_blank" rel="noreferrer">近くのお店を探す <span>↗</span></a>
+          </div>
+          <div class="food-card food-pear">
+            <span class="food-number">01</span><div class="food-caption"><span>LOCAL FRUIT · SUMMER</span><h3>みずみずしい、八千代の梨。</h3><p>旬の時期には市内の直売所で出会えることも。販売時期や品種は各農園にご確認を。</p></div>
+          </div>
+          <div class="food-card food-vegetable">
+            <span class="food-number">02</span><div class="food-caption"><span>FARM TO TABLE · ALL SEASON</span><h3>畑から届く、採れたて野菜。</h3><p>道の駅や直売所をのぞいて、その日の「おいしい」を探してみよう。</p></div>
+          </div>
+          <div class="gourmet-note"><span class="note-icon">✳</span><span>地元食材を使うカフェや飲食店も。<br />旬のメニューはお店の最新情報をチェック。</span></div>
+        </div>
+      </section>
+
+      <section class="season-section" id="season">
+        <div class="season-photo" role="img" aria-label="やわらかな光が差し込む季節の花"></div>
+        <div class="season-content">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> EVERY SEASON, A REASON</p>
+          <h2>何度来ても、<br /><em>違う景色に会える。</em></h2>
+          <p>春の桜、新緑の水辺、夏から秋の味覚、そして季節ごとに表情を変える庭園。気になる景色を見つけたら、次の週末の予定に。</p>
+          <div class="season-list">
+            <div><span>SPRING</span><span>桜並木と、花めぐり。</span><span>01</span></div>
+            <div><span>SUMMER</span><span>みずみずしい、旬の味覚。</span><span>02</span></div>
+            <div><span>AUTUMN</span><span>風を感じる、水辺さんぽ。</span><span>03</span></div>
+            <div><span>ALL YEAR</span><span>庭園と、まちのよりみち。</span><span>04</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="visit-section" id="access">
+        <div class="visit-inner">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> PLAN YOUR VISIT</p>
+          <h2>八千代への旅を、<br /><em>気軽に計画しよう。</em></h2>
+          <p>京成本線・東葉高速線でアクセス。お出かけ先により最寄り駅やバスが異なるので、事前に経路をご確認ください。</p>
+          <div class="visit-actions">
+            <a class="button button-dark" href="https://www.city.yachiyo.lg.jp/" target="_blank" rel="noreferrer">八千代市公式サイト <span>↗</span></a>
+            <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&query=八千代市" target="_blank" rel="noreferrer">八千代市を地図で見る <span>↗</span></a>
+          </div>
+          <div class="visit-stamp" aria-hidden="true"><span>SEE YOU<br />IN YACHIYO</span><strong>八</strong></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">八</span><span class="brand-copy"><strong>やちよ日和</strong><small>YACHIYO, CHIBA</small></span></a>
+      <span class="footer-caption">千葉県八千代市の旅とおいしいもの</span>
+      <a class="back-top" href="#home">BACK TO TOP <span>↑</span></a>
+      <p class="copyright">© 2026 YACHIYO BIYORI</p>
+    </footer>
+  </body>
+</html>
